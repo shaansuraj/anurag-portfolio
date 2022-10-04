@@ -5,3 +5,10 @@
     background-color: #282e347a;
 }
 
+.nav-link {
+    transition-duration: 0.5s;
+}
+.nav-link:hover {
+    background-color: rgba(37, 37, 37, 0.61);
+}
+

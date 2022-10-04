@@ -36,7 +36,7 @@ function Home() {
                                     <div className="message">
                                         <div className="word1">entrepreneur</div>
                                         <div className="word2">web developer</div>
-                                        <div className="word3">java developer</div>
+                                        <div className="word3">community</div>
                                     </div>
                                 </h1>
                             </div>

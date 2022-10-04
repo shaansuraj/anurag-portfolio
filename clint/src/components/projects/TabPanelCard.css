@@ -1,9 +1,14 @@
 .card {
-    background-color: #171717;
+    background-color: #1f1e1e7e;
+    transition-duration: 0.6s;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px #3f3f3fb0;
 }
 
 .btns{
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 0.8rem;
     color: whitesmoke;
     border: 1px solid whitesmoke;
