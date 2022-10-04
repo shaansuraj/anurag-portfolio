@@ -16,7 +16,7 @@ function MyProjects() {
 
     return (
         <>
-        <section className='py-5' style={parallex}>
+        <section className='py-5' id='project' style={parallex}>
             <div className='text-center'>
                 <h4 style={{color: '#cbb26a'}}>CASE STUDIES</h4>
                 <h2>Project Work</h2>

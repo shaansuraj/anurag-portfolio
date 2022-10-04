@@ -94,6 +94,28 @@ body {
   }
 }
 
+
+.upDown {
+  animation-name: upDown;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+@keyframes upDown {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 200px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+
 body::-webkit-scrollbar {
   width: 0px;
 }

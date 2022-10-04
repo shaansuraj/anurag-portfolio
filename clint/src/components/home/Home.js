@@ -27,7 +27,7 @@ function Home() {
             <section style={parallex} >
                 <div className="container" style={{paddingTop: '5rem', paddingBottom: '5rem'}}>
                     <div className="row">
-                        <div className="col-lg-7 col-md-6 col-sm-12">
+                        <div className="col-lg-7 col-md-6 col-sm-12 fadeInLeft">
                             <h1> Hi, <br />I'm Anurag,</h1>
 
                             <div className="me my-3">
@@ -43,8 +43,8 @@ function Home() {
 
                             <p className='my-3'>Co-Founder and CTO of uncovercampus <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Front-end as well as Back-end Development and Database management</p>
                         </div>
-                        <div className="col-lg-5 col-md-6 col-sm-12 text-center">
-                            <img src={MyImg} alt=""/>
+                        <div className="col-lg-5 col-md-6 col-sm-12 text-center fadeInRight">
+                            <img className='upDown' src={MyImg} alt=""/>
                         </div>
                     </div>
                     {/* <Wave /> */}
