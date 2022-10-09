@@ -9,8 +9,8 @@
 
 body {
   font-family: 'Nova Round', cursive;
-  background-color: #171717;
-  color: aliceblue;
+  background-color: rgb(25, 23, 18);
+  color: aliceblue; 
   overflow-x: hidden;
 }
 
