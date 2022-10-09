@@ -14,6 +14,11 @@ body {
   overflow-x: hidden;
 }
 
+.link {
+  text-decoration: none;
+  color: rgba(203, 179, 106);
+}
+
 .fadeIn {
   animation: 1s ease-out fadeIn 1;
 }
@@ -117,14 +122,16 @@ body {
 
 
 body::-webkit-scrollbar {
-  width: 0px;
+  width: 5px;
 }
 
-/* body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px black;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #229b93;
-  outline: 1px solid #229b93;
-} */
+  /* background-color: #229b93; */
+  background-image: linear-gradient(to top, rgba(203, 179, 106, 0.518), azure);
+  /* background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(160, 186, 12)); */
+  outline: 0px solid #229b93;
+}

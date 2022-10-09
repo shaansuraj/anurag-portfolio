@@ -16,26 +16,27 @@ function Bio() {
         backgroundSize: "cover",
     };
 
-    const feild = {
-        color: '#171717',
-        backgroundColor: 'azure',
-        padding: '1.5rem 3rem',
-    }
+    // const feild = {
+    //     color: '#171717',
+    //     backgroundColor: 'azure',
+    //     // backgroundImage: linear-gradient(to top, rgb(0, 0, 0), rgb(160, 186, 12)),
+    //     padding: '1.5rem 3rem',
+    // }
 
     return (
         <>
             <section className='py-5' id='bio' style={parallex}>
                 <div className="container">
-                    <h1 className='text-center'>My Bio</h1>
+                    <h1 className='text-center' style={{color: 'rgb(203, 178, 106)', fontWeight: 'bolder'}}>My Bio</h1>
                     <div className="row pt-5">
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className='text-center'>
-                                <h2 style={feild}>Full Stack developer</h2>
-                                <h3><b>|</b> Frontend <b>|</b></h3>
+                                <h2 className='field py-3'> <a href="https://www.geeksforgeeks.org/what-is-full-stack-development/" className='link'> Full Stack developer</a></h2>
+                                <h3 ><b>|</b> Frontend <b>|</b></h3>
                                 <h3><b>|</b> Backend <b>|</b></h3>
                             </div>
                             <div className='mt-5 text-center'>
-                                <h2 style={feild}>DevOps Engineer</h2>
+                                <h2 className='field py-3'> <a href="https://aws.amazon.com/devops/what-is-devops/" className='link' >DevOps Engineer</a> </h2>
                             </div>
                             <div className='text-center'>
                                 <img src={Vector2} style={{ height: '20rem' }} alt="" />
