@@ -72,7 +72,7 @@ function TabPanel() {
                                             li1="Fully responsive frontend, backend web page setup along with integrated database setup ."
                                             li2="This site is underdevelopment "
                                             li3="Hand coded custom amination using css and Jquery and making the website interactive."
-                                            live="https://apoorbaindustries.netlify.app/"
+                                            // live="https://apoorbaindustries.netlify.app/"
                                             code="https://github.com/anuragkmr45/apoorva_industries.git"
                                         />
                                     </div>
@@ -129,7 +129,7 @@ function TabPanel() {
                                             li1="Fully responsive front end, back end web page setup."
                                             li2="Created all the components from scratch using react.js"
                                             li3="Hand coded custom amination using css and Jquery and making the website interactive."
-                                            live="https://anuragkmr45.netlify.app/"
+                                            // live="https://anuragkmr45.netlify.app/"
                                             code="https://github.com/anuragkmr45/portfolio.git"
                                         />
                                     </div>

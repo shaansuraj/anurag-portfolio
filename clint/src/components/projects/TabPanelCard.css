@@ -4,6 +4,9 @@
     box-shadow: 0px 5px 6px 5px rgba(203, 179, 106, 0.186) ;
 }
 
+.card:hover {
+    box-shadow: 0px 10px 10px 10px rgba(203, 179, 106, 0.186);
+}
 
 .btns{
     /* border-radius: 10px; */

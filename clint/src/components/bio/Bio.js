@@ -16,13 +16,6 @@ function Bio() {
         backgroundSize: "cover",
     };
 
-    // const feild = {
-    //     color: '#171717',
-    //     backgroundColor: 'azure',
-    //     // backgroundImage: linear-gradient(to top, rgb(0, 0, 0), rgb(160, 186, 12)),
-    //     padding: '1.5rem 3rem',
-    // }
-
     return (
         <>
             <section className='py-5' id='bio' style={parallex}>

@@ -23,11 +23,11 @@ function TabPanelCard(props) {
                     </div> */}
                     <div className="btnGrp">
                         <div className="d-flex flex-wrap justify-content-around">
-                            <a style={{ textDecoration: 'none'}} rel="noreferrer" target='_blank' href={props.live}>
+                            {/* <a style={{ textDecoration: 'none'}} rel="noreferrer" target='_blank' href={props.live}>
                                 <div className="btns">
                                     <h5>Live Demo</h5>
                                 </div>
-                            </a>
+                            </a> */}
                             <a style={{ textDecoration: 'none'}} rel="noreferrer" target='_blank' href={props.code}>
                                 <div className="btns">
                                     <h5>Source Code</h5>

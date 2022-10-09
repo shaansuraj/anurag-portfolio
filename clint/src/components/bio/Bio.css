@@ -12,12 +12,12 @@
 }
 
 .field {
-    color: #171717;
-    background-color: azure !important;
+    color: rgb(203, 178, 106);
+    background-color: rgba(240, 255, 255, 0.056) !important;
     transition-duration: 0.5s;
 }
 
-.field:hover {
+/* .field:hover {
     color: rgb(203, 178, 106);
     background-color: #00000000 !important;
-}
+} */

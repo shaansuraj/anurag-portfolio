@@ -27,7 +27,7 @@ function Home() {
                 <div className="container" style={{paddingTop: '5rem', paddingBottom: '5rem'}}>
                     <div className="row">
                         <div className="col-lg-7 col-md-6 col-sm-12 fadeInLeft">
-                            <h1> Hi, <br /> I'm  <span style={{color: 'rgb(203, 178, 106)'}}>Anurag,</span></h1>
+                            <h1> Hi,  <span className="wave" role="img" aria-labelledby="wave">👋🏻</span><br /> I'm  <span style={{color: 'rgb(203, 178, 106)'}}>Anurag,</span></h1>
 
                             <div className="me my-3">
                                 <h1>

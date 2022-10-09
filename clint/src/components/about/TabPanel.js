@@ -220,9 +220,9 @@ function TabPanel() {
                                             <div style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
                                                 <div className="h-100 p-5 my-2 rounded">
                                                     <h3><FaUserGraduate fontSize='5rem' /> <br /><b>2021 - Pursuing</b></h3>
-                                                    <h2><b>UNDER-GRADUATION <br />(B.Tech)</b></h2>
+                                                    <h2><b style={{color: 'rgb(203, 178, 106)'}}>UNDER-GRADUATION <br />(B.Tech)</b></h2>
                                                     {/* <h4>Percentage - 88%</h4> */}
-                                                    <h3>Institute of Technical Education and Research, SOA</h3>
+                                                    <h3 style={{color: 'rgb(203, 178, 106)'}}>Institute of Technical Education and Research, SOA</h3>
                                                     {/* <ul>
                                                         <li>Had exemplary academic track record with multiple academic excellence award</li>
                                                         <li>Represented school on multiple platforms including on national level.</li>
@@ -234,9 +234,9 @@ function TabPanel() {
                                             <div style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
                                                 <div className="h-100 p-4 rounded">
                                                     <h3><FaSchool fontSize='5rem' /> <br /><b>2021</b></h3>
-                                                    <h1><b>Class - 12</b></h1>
+                                                    <h1><b style={{color: 'rgb(203, 178, 106)'}}>Class - 12</b></h1>
                                                     <h4>Percentage - 88%</h4>
-                                                    <h3>Kendriya Vidhalaya, Noida</h3>
+                                                    <h3 style={{color: 'rgb(203, 178, 106)'}}>Kendriya Vidhalaya, Noida</h3>
                                                     <ul>
                                                         <li>Had exemplary academic track record with multiple academic excellence award</li>
                                                         <li>Represented school on multiple platforms including on national level.</li>
